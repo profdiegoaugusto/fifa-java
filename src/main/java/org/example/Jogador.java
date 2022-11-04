@@ -9,8 +9,8 @@ public class Jogador {
 
     private String nome;
     private byte idade;
-    private float peso;
     private float altura;
+    private float peso;
 
     public static final byte IDADE_MIN_ANOS = 18;
 
@@ -20,22 +20,22 @@ public class Jogador {
     public Jogador() {
         nome = "";
         idade = IDADE_MIN_ANOS;
-        peso = 0.0f;
         altura = 0.0f;
+        peso = 0.0f;
     }
 
     /**
      * Inicializa um novo jogador de futebol.
      * @param nome o nome do jogador
      * @param idade a idade do jogador
-     * @param peso o peso em quilos (kg)
      * @param altura a altura em metros (m)
+     * @param peso o peso em quilos (kg)
      */
-    public Jogador(String nome, byte idade, float peso, float altura) {
+    public Jogador(String nome, byte idade, float altura, float peso) {
         this.nome = nome;
         this.idade = idade;
-        this.peso = peso;
         this.altura = altura;
+        this.peso = peso;
     }
 
     /**

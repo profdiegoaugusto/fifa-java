@@ -48,16 +48,6 @@ public class Time {
     }
 
     /**
-     * Inicializa um novo Time
-     * @param nome o nome oficial do time de futebol
-     * @param jogadoresEmCampo os 11 jogadores que estarão em campo durante a partida de futebol.
-     */
-    public Time(String nome, Jogador[] jogadoresEmCampo) {
-        this.nome = nome;
-        this.jogadoresEmCampo = jogadoresEmCampo;
-    }
-
-    /**
      * Obtém o nome oficial do time
      * @return o nome do time
      */
